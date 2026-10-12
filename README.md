@@ -1,5 +1,7 @@
 # Native Boot Gallery
 
+**[Open the live gallery](https://devine3ds.github.io/NativeBootGallery/)** / [Native Boot Studio](https://github.com/Devine3DS/NativeBootStudio)
+
 An English gallery of **40 Native Boot Studio color themes and 6 Blue Nexus custom animations**, with complete-logo stills, six motion previews with sound, and **92 individually downloadable HDD/NAND XEX files**.
 
 The two early Blue Nexus prototypes have been removed. All included XEX files are copied byte-for-byte from the verified exports. Each file's CRC-32 and SHA-256 appear in the gallery, `catalog.json`, and `SHA256SUMS.txt`.
