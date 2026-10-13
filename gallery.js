@@ -19,6 +19,14 @@ function update() {
   }
   document.getElementById("results").textContent = `${count} of ${cards.length} animations`;
   document.getElementById("empty").hidden = count > 0;
+  for (const section of document.querySelectorAll("[data-section-kind]")) {
+    const visible = cards.filter(card => card.dataset.kind === section.dataset.sectionKind && !card.hidden).length;
+    section.hidden = visible === 0;
+    section.querySelector(".section-count").textContent = `${visible} animations`;
+  }
+  for (const option of group.options) {
+    option.hidden = filter !== "all" && option.value !== "all" && option.dataset.kind !== filter;
+  }
 }
 for (const button of filters) button.addEventListener("click", () => {
   filter = button.dataset.filter;
@@ -32,6 +40,11 @@ for (const button of filters) button.addEventListener("click", () => {
   update();
 });
 search.addEventListener("input", update);
+for (const link of document.querySelectorAll(".category-links a")) link.addEventListener("click", () => {
+  search.value = "";
+  const kind = link.getAttribute("href") === "#custom-animations" ? "custom" : "original";
+  filters.find(button => button.dataset.filter === kind).click();
+});
 group.addEventListener("change", update);
 document.getElementById("clear").addEventListener("click", () => {
   search.value = ""; group.value = "all"; filters[0].click(); search.focus();
@@ -44,7 +57,7 @@ for (const button of document.querySelectorAll("[data-image]")) button.addEventL
     video.src = button.dataset.preview;
     video.poster = button.dataset.image;
     video.load();
-    note.textContent = "Native-renderer recording with Deep Orbit sound. Press Play to watch and listen. Xbox hardware may render some details differently.";
+    note.textContent = `Native-renderer recording with ${button.dataset.sound} sound. Press Play to watch and listen. Xbox hardware may render some details differently.`;
   } else {
     still.src = button.dataset.image;
     still.alt = `${button.dataset.title}: fully revealed sphere and XBOX 360 lettering`;

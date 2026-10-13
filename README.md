@@ -2,13 +2,15 @@
 
 **[Open the live gallery](https://devine3ds.github.io/NativeBootGallery/)** / [Native Boot Studio](https://github.com/Devine3DS/NativeBootStudio)
 
-An English gallery of **40 Native Boot Studio color themes and 6 Blue Nexus custom animations**, with complete-logo stills, six motion previews with sound, and **92 individually downloadable HDD/NAND XEX files**.
+An English gallery with two clearly separated collections: **10 custom animations** (Vesper Flow, Vesper and Blue Nexus) and **40 editions of the original animation**, with coordinated color palettes and a stock-color reference. Includes **50 complete-logo stills, 10 native motion previews with sound and 100 HDD/NAND XEX downloads**.
+
+Vesper Flow and Vesper each include **Obsidian** (dark navy, blue and violet) and **Pearl** (light pearl, indigo and lilac). Vesper Flow adds a continuous iris-to-curved-X transition, gathering lens arcs and separate eased sphere/X reveals. Their embedded soundtracks are **Prism Resonance** and **Prism Resonance / Air**.
 
 The two early Blue Nexus prototypes have been removed. All included XEX files are copied byte-for-byte from the verified exports. Each file's CRC-32 and SHA-256 appear in the gallery, `catalog.json`, and `SHA256SUMS.txt`.
 
 ## Use the gallery
 
-Open `index.html` locally or publish this repository with GitHub Pages. Search names or effects, choose a color group, and enlarge a completed frame. Blue Nexus cards offer **Watch animation with sound**. Sound starts only when you press Play.
+Open `index.html` locally or publish this repository with GitHub Pages. Search names or effects, choose a color group, and enlarge a completed frame. Custom cards offer **Watch & listen**, with Deep Orbit or Prism Resonance matching the selected animation. Sound starts only when you press Play.
 
 Choose **Download HDD** or **Download NAND** to match your console's boot path. Downloads have descriptive names; rename your selected file to **bootanim.xex** before installing. The files are for supported modern **17559 RGH/JTAG** boot setups; classic boot animations are not included.
 
@@ -32,7 +34,7 @@ See [Native Boot Studio's detailed installation guide](https://github.com/Devine
 
 ## Preview and testing scope
 
-Still frames were captured at **5.8 seconds**, after the sphere and lettering fully appeared, from the actual exported program images in the native Xbox renderer through Xenia. Custom motion previews use the same native-renderer recordings and Deep Orbit soundtrack, encoded as web-compatible H.264/AAC MP4. Video compression does not alter the XEX downloads. Console hardware can render details differently.
+Still frames were captured at **approximately 5.8 seconds**, after the sphere and lettering fully appeared, from the actual exported program images in the native Xbox renderer through Xenia. Custom motion previews use native-renderer recordings and the selected animation's Deep Orbit or Prism Resonance soundtrack, encoded as web-compatible H.264/AAC MP4. Video compression does not alter the XEX downloads. Console hardware can render details differently.
 
 Blue Nexus / Deep Orbit has a successful Xbox test reported by a user. The other custom designs have native-renderer verification but still need console testing. No NAND flashing is performed or verified by this gallery.
 
@@ -52,7 +54,7 @@ Official guides: [Create a Pages site](https://docs.github.com/en/pages/getting-
 
 - **Mena**: the `remap_bootanim_17559.bin` HDD-remap patch, as credited in the upstream release.
 - **TheOnlyLordVirus**: Xbox360BootAnimationCreator and the linked remap distribution/instructions.
-- **Devine3DS / Native Boot Studio contributors**: editor, color themes, Blue Nexus designs and this gallery. Deep Orbit was created for the custom animation series.
+- **Devine3DS / Native Boot Studio contributors**: editor, color editions, Vesper / Blue Nexus designs and this gallery. Deep Orbit, Prism Resonance and Prism Resonance / Air were created for these custom animations.
 - **Xenia contributors**: native-renderer previews. **xorloser**: XexTool, used in the export workflow.
 - **Microsoft**: Xbox 360 branding and original boot software/assets.
 

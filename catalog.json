@@ -1,1229 +1,129 @@
 {
-  "version": 1,
-  "animation_count": 46,
+  "version": 2,
+  "animation_count": 50,
   "color_theme_count": 40,
-  "custom_animation_count": 6,
-  "xex_count": 92,
+  "custom_animation_count": 10,
+  "xex_count": 100,
   "animations": [
     {
-      "id": "original",
-      "name": "Xbox Original",
-      "kind": "studio",
-      "group": "Basic",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/original.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/original-HDD.xex",
-          "sha256": "c30e2e78478eb31d5102dd819d22b386b3d27e42559f6a9984917f2984724a3a",
-          "crc32": "4935F9A9",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/original-NAND.xex",
-          "sha256": "446ac59cc2952209ac7029f45cbd7ffec689bafe44db0fb5ed167f395942ccfd",
-          "crc32": "90DCBBE8",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "blue",
-      "name": "Blue / standard",
-      "kind": "studio",
-      "group": "Basic",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/blue.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/blue-HDD.xex",
-          "sha256": "00ac4eece003311f7fd6f6cf1def2264f4e4c7713d304b04922089ebd2e2ac18",
-          "crc32": "09DBA909",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/blue-NAND.xex",
-          "sha256": "15ec3ed0242ce29b4ac7d563b3b8df5b68acffade807505b01c8cff003ff0c60",
-          "crc32": "3EAB8E3A",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "cyan",
-      "name": "Cyan / standard",
-      "kind": "studio",
-      "group": "Basic",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/cyan.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/cyan-HDD.xex",
-          "sha256": "008b838a95db219b85c197532e224145d8e3949c3db3b457734276da103c5655",
-          "crc32": "BD87AFC7",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/cyan-NAND.xex",
-          "sha256": "350aa3232f53d151d4ab1c7357b23a6678d498fcbb1d2b023d3b315fd559cbaa",
-          "crc32": "900AC9AD",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "purple",
-      "name": "Purple / standard",
-      "kind": "studio",
-      "group": "Basic",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/purple.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/purple-HDD.xex",
-          "sha256": "881601fdc19bac9ea55464f01f1f4c1232c6ac88fac0f5bc3d1e3b5ab18c07c9",
-          "crc32": "488F7D7E",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/purple-NAND.xex",
-          "sha256": "3f2a2b86201904cc9cf101a6d48eab0348ac22285ec5ebcbe15930548be21a4a",
-          "crc32": "27EE55FD",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "ice",
-      "name": "Ice Blue",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/ice.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/ice-HDD.xex",
-          "sha256": "9bfda056303b4d7dcd284f1d4a8bb0c9dc709fceccac2f6fa4813768cbd3866d",
-          "crc32": "D792279E",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/ice-NAND.xex",
-          "sha256": "c804b109c7bd9ff637937a426f7b52e26b8c2e7c34b195d8e858b85f72b51bcd",
-          "crc32": "AA9DECEA",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "sapphire",
-      "name": "Sapphire",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/sapphire.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/sapphire-HDD.xex",
-          "sha256": "154530b02e027c178a20033606d8f8ea092d9930533e6f2e183358983db99166",
-          "crc32": "C87A0ABA",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/sapphire-NAND.xex",
-          "sha256": "50728af790fdcd4c33b58db1e13d02febf628c5871a89532d0c7af0c85c08825",
-          "crc32": "5F0575B7",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "ocean",
-      "name": "Ocean",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/ocean.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/ocean-HDD.xex",
-          "sha256": "f440746a7b4f375e020494e90dd58efc3c0adf505f1d2927e868ccbda91d4a35",
-          "crc32": "040806F7",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/ocean-NAND.xex",
-          "sha256": "45db3b6d9cfcceb472500b800b32a7e403f8cad7cfddf175ad7a624a8f36b56b",
-          "crc32": "40D09DAD",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "mint",
-      "name": "Mint",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/mint.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/mint-HDD.xex",
-          "sha256": "c03883ed47d6e766ec032cdef58f4bf4eeef08334e98d5908904b0954855ebd4",
-          "crc32": "F42CA157",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/mint-NAND.xex",
-          "sha256": "389b14d87dc7d6cb78105947d6acc87af3d71958d3f8ac30ea5f7fce72faa6d2",
-          "crc32": "59EB883E",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "lime",
-      "name": "Lime",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/lime.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/lime-HDD.xex",
-          "sha256": "657800cef535f3951f19ecb6d6d2a6b4d5e9593ee08e7d6aa007b53ba84ddf61",
-          "crc32": "E26873BC",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/lime-NAND.xex",
-          "sha256": "e58ac175572d280968975702ad1ee9a094f73e5865c267db0b13092c3e113248",
-          "crc32": "A5A1C33F",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "lavender",
-      "name": "Lavender",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/lavender.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/lavender-HDD.xex",
-          "sha256": "109490caa291167fedaf009fe6ab18a384d557ce725bb333943711e1f6aff286",
-          "crc32": "109A1AB7",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/lavender-NAND.xex",
-          "sha256": "041a12da21dd4057d16b1fb432964b4f4538f839dcfc8143c73d7ed7a6449e99",
-          "crc32": "6CA982A1",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "rose",
-      "name": "Rose",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/rose.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/rose-HDD.xex",
-          "sha256": "0686a466a00602fc6012cf14ae14bd875f9f52fc5292c6c02b9555ccdcddeb43",
-          "crc32": "B0BDA339",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/rose-NAND.xex",
-          "sha256": "99627e7c3266f50e8753b85f27d6b9a493f80c36b593501e60a14aa93de335d2",
-          "crc32": "6D596B14",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "coral",
-      "name": "Coral",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/coral.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/coral-HDD.xex",
-          "sha256": "4127b2bd42d6f7df5c78de890cccc678a30e52e51ab84640a2c8ac65f032d355",
-          "crc32": "51FA7D92",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/coral-NAND.xex",
-          "sha256": "518c442c3c35b88ffda040329cf984215d90408af21dafb91080c31e778be280",
-          "crc32": "C6AC909E",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "sunrise",
-      "name": "Sunrise",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/sunrise.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/sunrise-HDD.xex",
-          "sha256": "6c839567ac7c5ff7c770f02c6e54338bfafd87269faff5e9d18f885e052f446d",
-          "crc32": "D34EAD79",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/sunrise-NAND.xex",
-          "sha256": "26133a2583cff1e04e97f5f2b857b71d98b856c59e273891c5ff2938e6ec5211",
-          "crc32": "5543D2C2",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "gold",
-      "name": "Gold",
-      "kind": "studio",
-      "group": "Light",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/gold.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/gold-HDD.xex",
-          "sha256": "fc160ae93b700a41af8822cddaedbefc89da7804dd0620c5e8a3a0238d8b02a3",
-          "crc32": "3A9ECD58",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/gold-NAND.xex",
-          "sha256": "a5f296da6477dd889c9b6b0db90b788b537adf05582861ad374295d803c89be1",
-          "crc32": "CAA67314",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "black_blue",
-      "name": "Blue on Black",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/black_blue.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/black_blue-HDD.xex",
-          "sha256": "fb6a049f73e0d0ea0b279f13a5edc2103d58052790e2134d33228f3be161c6e9",
-          "crc32": "3CC7A1B9",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/black_blue-NAND.xex",
-          "sha256": "93cb118df6987838f0e75b2f110b143749f9d2845a705037b2d6a3a2852c66e0",
-          "crc32": "DC323618",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "midnight",
-      "name": "Midnight Blue",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/midnight.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/midnight-HDD.xex",
-          "sha256": "dd0beeabe401c1c53914743e8b73cd367aa2d56ab2d3529f611344e9f7579e69",
-          "crc32": "0AF8FAC2",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/midnight-NAND.xex",
-          "sha256": "7802048d5a4e65f0966be7a0af042cfefb7aa53e1786cec785575602ce7fe492",
-          "crc32": "95F2ADAA",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "arctic",
-      "name": "Arctic Night",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/arctic.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/arctic-HDD.xex",
-          "sha256": "9b7a85d0724222b4e7906a34ed7119db7c4ab1772c05f3fac74b6e474f23e79f",
-          "crc32": "B799D48F",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/arctic-NAND.xex",
-          "sha256": "f3d2f6c47011bc3958b5b3fb961dbb1aec5f94a181b9f0b1024a2f169a96c7d6",
-          "crc32": "97CC1548",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "black_cyan",
-      "name": "Cyan on Black",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/black_cyan.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/black_cyan-HDD.xex",
-          "sha256": "3626b684a3815a8246aee82211a5b55290c69d22889cbd8a47dacf5700855810",
-          "crc32": "6B95BC73",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/black_cyan-NAND.xex",
-          "sha256": "f10ae834a6230235e2f466f1b236068b80d2062df870cd1593e9d9384d9e74c4",
-          "crc32": "7527ED00",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "emerald",
-      "name": "Emerald Night",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/emerald.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/emerald-HDD.xex",
-          "sha256": "caa2ee280a62779c035c5540d3e26cfe58e021f8a0ca1a7644c178a86e6dab84",
-          "crc32": "6CA26161",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/emerald-NAND.xex",
-          "sha256": "651539393ecfb80d914f02bfabfa1d2001fe4290fd94a3b1bc1b060912ac2696",
-          "crc32": "8E0E9DAB",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "forest",
-      "name": "Forest Night",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/forest.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/forest-HDD.xex",
-          "sha256": "9a820e7eb2f160a90df1b0ee65ce673e6c2fdc3aa1bf7f9a1dba450ecbcb08d9",
-          "crc32": "F91CB0C5",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/forest-NAND.xex",
-          "sha256": "4f9a5dfee55b51ba92d895feadd863cbc84bb45bb3cfd5d7d02ac071de767499",
-          "crc32": "77040D5F",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "purple_night",
-      "name": "Purple Night",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/purple_night.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/purple_night-HDD.xex",
-          "sha256": "1edee45b356f1fd9e9a5366eaf41767cc4f602ff7cb1d5ebea7f13218ae25c71",
-          "crc32": "E839175A",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/purple_night-NAND.xex",
-          "sha256": "fe8219e914f7f5580c2a954cc31e13c66a2b161a1fb6b5083ac968ab6d3dd163",
-          "crc32": "56C2B8EE",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "neon_pink",
-      "name": "Neon Pink",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/neon_pink.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/neon_pink-HDD.xex",
-          "sha256": "113a38f0db8834654c57d7aef3410eeb11ec6569ec05b79cff075b9403a95ff0",
-          "crc32": "F7F29491",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/neon_pink-NAND.xex",
-          "sha256": "f243f555e1c5676d13024e489aeed4a58a494fe878eb78b61332401b8a991d4d",
-          "crc32": "4AD63B79",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "crimson",
-      "name": "Crimson Black",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/crimson.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/crimson-HDD.xex",
-          "sha256": "b2facd55abf37c6726c5aec9ec10204bd819bf9b7aee0855faa85ea790341c7d",
-          "crc32": "15B03F12",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/crimson-NAND.xex",
-          "sha256": "7ff11a897eb9d5008dd4de3cb200843550ccce6e49f46847b79353fb7b4c21ad",
-          "crc32": "F4162B44",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "ember",
-      "name": "Ember",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/ember.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/ember-HDD.xex",
-          "sha256": "415cd47719c6893bd72d3514462f64404f631bfbbcb584e26a38fdf5f4f23025",
-          "crc32": "87E9E10B",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/ember-NAND.xex",
-          "sha256": "f5550a57e3fdcf52590af6f801fab7bafac382f7fa62fd3fbbf38db264d2c215",
-          "crc32": "501AF67F",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "bronze",
-      "name": "Bronze Night",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/bronze.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/bronze-HDD.xex",
-          "sha256": "225ec128f611a6e53665cd98997fce0d747161e3c6ea3be4408481b8d5b8dd6a",
-          "crc32": "E6BCDD53",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/bronze-NAND.xex",
-          "sha256": "18a22785ca65e5ce05dce2a652d2532b292b022758540d80caf43f6df342cae4",
-          "crc32": "E5DDA589",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "black_gold",
-      "name": "Gold on Black",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/black_gold.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/black_gold-HDD.xex",
-          "sha256": "28edbe22fb47840f078566eaffac7abd06e5c70c7e209de8ea655d856d7dd907",
-          "crc32": "3C29F267",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/black_gold-NAND.xex",
-          "sha256": "5f600f2406198774c98852cfbd313c04e72b0eb35b7570fca00e2211a93f69de",
-          "crc32": "613B8BEE",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "graphite",
-      "name": "Graphite",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/graphite.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/graphite-HDD.xex",
-          "sha256": "2db22c1c2376fb6b2015ab383a97d04092defc5054d701c0f0d09d6d92c25a37",
-          "crc32": "3FF1010C",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/graphite-NAND.xex",
-          "sha256": "77217053a65ced3512279a34c6d0e93ae6febb7e084c57bcc06adb2b2aa2600b",
-          "crc32": "26353F6A",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "moonlight",
-      "name": "Moonlight",
-      "kind": "studio",
-      "group": "Dark",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/moonlight.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/moonlight-HDD.xex",
-          "sha256": "f12aa0d286442b659949f8ebdf4bf3ad9b0f89b829929d4f6ab61dc486fd35ef",
-          "crc32": "D2D4C2EF",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/moonlight-NAND.xex",
-          "sha256": "c2d507c9dd2fc9a70b121e73d21ddfe84c6df724eb64715832c41df61a4561da",
-          "crc32": "F2B4E34A",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "ice_mist",
-      "name": "Ice Mist",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/ice_mist.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/ice_mist-HDD.xex",
-          "sha256": "c4883736eccec50aa52d1820b3571cfc46e4717ade964c527839c195591f97fd",
-          "crc32": "43AD19AB",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/ice_mist-NAND.xex",
-          "sha256": "15a1eae6d688348747176b4c302f06be0a610aa4406b327cfb5661b3dbe8bcca",
-          "crc32": "42BEF1B5",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "lilac_mist",
-      "name": "Lilac Mist",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/lilac_mist.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/lilac_mist-HDD.xex",
-          "sha256": "cd1c4b4bdc1ee77a26b7d8b8078d4befe0b550b3930e2b1e5c15f30509e6daa9",
-          "crc32": "A5B081F5",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/lilac_mist-NAND.xex",
-          "sha256": "e4705995e6c61af130d188c652dbe5968aea358df93d677afb692e31358a0302",
-          "crc32": "25D125CA",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "mint_mist",
-      "name": "Mint Mist",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/mint_mist.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/mint_mist-HDD.xex",
-          "sha256": "e5b6c13380ea03d592faab6231e430513db4efcfcfef9569c44ce1b2f5bdd7cc",
-          "crc32": "B1CFC82D",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/mint_mist-NAND.xex",
-          "sha256": "c2718dda201c967daf99eae1000d89a263281f4d79668d26fd809e9626c126e7",
-          "crc32": "6B7D4A92",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "peach",
-      "name": "Peach",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/peach.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/peach-HDD.xex",
-          "sha256": "573a7a3649278fbc26ee3adef60370dd25ab6296e27fb34da4e3c3caa5d8e1b3",
-          "crc32": "7C017C64",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/peach-NAND.xex",
-          "sha256": "31e8c2bd1363441e582d10808b78da76ad7feaa153e416d8b450198ab46ce474",
-          "crc32": "CB8C388A",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "warm_gray",
-      "name": "Warm Silver",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/warm_gray.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/warm_gray-HDD.xex",
-          "sha256": "8932c076c2cae1c343c906c9c41a0d28b20355d165ed335b9290d75ef249900a",
-          "crc32": "F657C594",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/warm_gray-NAND.xex",
-          "sha256": "7bc9f1c3c695c9bab17d8182bc5a399627e551787716d8a94c329bae5100a7b4",
-          "crc32": "58366959",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "rose_quartz",
-      "name": "Rose Quartz",
-      "kind": "studio",
-      "group": "Pastel",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/rose_quartz.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/rose_quartz-HDD.xex",
-          "sha256": "d5c64ad2f701d6a16bb8782d1ddf5f8f4f61a3b17156945b89bbe479f9ff35a6",
-          "crc32": "516129C2",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/rose_quartz-NAND.xex",
-          "sha256": "c3234a56fc128e1d59dd03ccc756018b131c832d4aa375149cb67f6dc1c0cf4d",
-          "crc32": "985F0682",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "sunset",
-      "name": "Sunset / Orange & Pink",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/sunset.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/sunset-HDD.xex",
-          "sha256": "bb6945ada180fff93796939a6a6255ef92a963f83638ead6c9db57ece4c7b70c",
-          "crc32": "114BB8DB",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/sunset-NAND.xex",
-          "sha256": "d421a6912aa97218a023582cc4886ee8ecb7af6f90d984a88452f4acbaaf97b3",
-          "crc32": "5F327DB2",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "aurora",
-      "name": "Aurora / Teal & Purple",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/aurora.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/aurora-HDD.xex",
-          "sha256": "e1aef0ffe1978ca229b5b42d42cdea232df91f9e2040c4c7b23838c7706935fe",
-          "crc32": "12734B0B",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/aurora-NAND.xex",
-          "sha256": "039a396f1b8b7d0579f4613bd48003f01c01a73910e600319306da46c7784c60",
-          "crc32": "D171AADE",
-          "bytes": 393216,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "cyberpunk",
-      "name": "Cyberpunk / Cyan & Pink",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/cyberpunk.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/cyberpunk-HDD.xex",
-          "sha256": "3f710a1be60fbd44290ca22e30406166a14e9b6d115029a6a41ac4e4429068c1",
-          "crc32": "6FA4E001",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/cyberpunk-NAND.xex",
-          "sha256": "b9173d440ffadbab8c0330e9fa39e6bc54c3e12aa923bd4580f3d6eb8aa00a06",
-          "crc32": "622A988A",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "royal",
-      "name": "Royal / Purple & Gold",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/royal.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/royal-HDD.xex",
-          "sha256": "0b201ec0446368f3d6613ded91dc9419df64e903be4548de228256dc8cb3b810",
-          "crc32": "3CCBFF34",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/royal-NAND.xex",
-          "sha256": "7d0b6dbcf216de8b3dcadb7950dc6cd5e63d09ba84d2bfce7afb3fe01a043157",
-          "crc32": "D887C39C",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "volcano",
-      "name": "Volcano / Red & Orange",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/volcano.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/volcano-HDD.xex",
-          "sha256": "45364d95a98ce0075625a541db0e4d4bdcafc9988664f3d02b429fbf48c85c02",
-          "crc32": "660023A9",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/volcano-NAND.xex",
-          "sha256": "c9aebdd9a15248633fece48ea01aec14d300a0d8e77670fb10c0b36d11cd360f",
-          "crc32": "A9E1B7D1",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "white_gold",
-      "name": "Champagne / White & Gold",
-      "kind": "studio",
-      "group": "Two-tone",
-      "description": "The modern original animation, with coordinated colors and the original boot sound.",
-      "image": "images/white_gold.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/white_gold-HDD.xex",
-          "sha256": "b1c53e921fd87bdf85b8ebea1a4eec4f0722182920f4060790ba47e3b56c0a12",
-          "crc32": "A7887FBE",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/white_gold-NAND.xex",
-          "sha256": "64c5119db306357334738fb383623d9081e96225b45a4847c95c4f7cf36e528f",
-          "crc32": "17BD1A5D",
-          "bytes": 391168,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": false
-    },
-    {
-      "id": "blue_nexus_deep_orbit",
-      "name": "Blue Nexus / Deep Orbit",
+      "id": "vesper_flow_obsidian",
+      "name": "Vesper Flow / Obsidian",
       "kind": "custom",
-      "group": "Blue Nexus",
-      "description": "The initial shader animation with Deep Orbit, reported working on the Xbox.",
-      "image": "images/blue_nexus_deep_orbit.webp",
-      "preview_seconds": 5.8,
+      "group": "Vesper Flow",
+      "description": "Deep navy, blue and violet. A depth-folded iris flows into a curved X as surrounding arcs gather into the sphere.",
+      "image": "images/vesper_flow_obsidian.webp",
+      "motion": "media/vesper_flow_obsidian.mp4",
+      "sound": "Prism Resonance",
+      "theme": "Dark",
+      "preview_seconds": 5.791666666666667,
       "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/blue_nexus_deep_orbit-HDD.xex",
-          "sha256": "8c16cdb098dcf6842a1018a4f5e18967c462cc809c6b35fd21f7fcd34e6cfeff",
-          "crc32": "1F53E7EE",
-          "bytes": 378880,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/blue_nexus_deep_orbit-NAND.xex",
-          "sha256": "045965b58fec04164349e1ec267c9996ca9a297aef705a9f11fe3d3be29d08fc",
-          "crc32": "5204BE34",
-          "bytes": 378880,
-          "install_name": "bootanim.xex"
-        }
-      },
-      "console_test_reported_successful": true,
-      "motion": "media/blue_nexus_deep_orbit.mp4"
-    },
-    {
-      "id": "blue_nexus_constellation",
-      "name": "Blue Nexus / Constellation",
-      "kind": "custom",
-      "group": "Blue Nexus",
-      "description": "Layered orbital trails, comets and a reveal shockwave / Deep Orbit.",
-      "image": "images/blue_nexus_constellation.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
-      "downloads": {
-        "HDD": {
-          "url": "downloads/blue_nexus_constellation-HDD.xex",
-          "sha256": "9323c00ce82da67b686dbc79cd03870f2e67bfed57791d60995401aa33e2fdb4",
-          "crc32": "AE75414E",
-          "bytes": 378880,
-          "install_name": "bootanim.xex"
-        },
-        "NAND": {
-          "url": "downloads/blue_nexus_constellation-NAND.xex",
-          "sha256": "e8ad11a8a3bf2cebdf9ae53b6270ac896d45c2d233d819fad85a2af525df9cd1",
-          "crc32": "2C782141",
-          "bytes": 378880,
-          "install_name": "bootanim.xex"
-        }
-      },
       "console_test_reported_successful": false,
-      "motion": "media/blue_nexus_constellation.mp4"
-    },
-    {
-      "id": "blue_nexus_aurora",
-      "name": "Blue Nexus / Aurora",
-      "kind": "custom",
-      "group": "Blue Nexus",
-      "description": "Broad flowing light ribbons replacing the thin orbital trails / Deep Orbit.",
-      "image": "images/blue_nexus_aurora.webp",
-      "preview_seconds": 5.8,
-      "preview_source": "Actual exported program image in the native renderer through Xenia",
       "downloads": {
         "HDD": {
-          "url": "downloads/blue_nexus_aurora-HDD.xex",
-          "sha256": "36c763805b7e113dd876db652f0fdd98a959a4a9b832b7d6499ce7635839701f",
-          "crc32": "37D420E0",
-          "bytes": 380928,
+          "url": "downloads/vesper_flow_obsidian-HDD.xex",
+          "sha256": "0870524e8831a9eab2d8a768bbebe2be45b97b9975bcd902de19d9bebe18f7fe",
+          "crc32": "53B7FBAB",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         },
         "NAND": {
-          "url": "downloads/blue_nexus_aurora-NAND.xex",
-          "sha256": "5725fc3997ccd83fd040b19f6e746688ba72e376c0c789e5c4fe689b4c197a1c",
-          "crc32": "51494C96",
-          "bytes": 380928,
+          "url": "downloads/vesper_flow_obsidian-NAND.xex",
+          "sha256": "e33972086a2b258b1a52d3da3e5891b812b8831d8f954a584c4982d7b5651077",
+          "crc32": "6690F703",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         }
-      },
-      "console_test_reported_successful": false,
-      "motion": "media/blue_nexus_aurora.mp4"
+      }
     },
     {
-      "id": "blue_nexus_aurora_ii",
-      "name": "Blue Nexus / Aurora II",
+      "id": "vesper_flow_pearl",
+      "name": "Vesper Flow / Pearl",
       "kind": "custom",
-      "group": "Blue Nexus",
-      "description": "Closer camera and smooth sphere lighting / Deep Orbit.",
-      "image": "images/blue_nexus_aurora_ii.webp",
-      "preview_seconds": 5.8,
+      "group": "Vesper Flow",
+      "description": "Pearl, indigo and lilac. A depth-folded iris flows into a curved X as surrounding arcs gather into the sphere.",
+      "image": "images/vesper_flow_pearl.webp",
+      "motion": "media/vesper_flow_pearl.mp4",
+      "sound": "Prism Resonance / Air",
+      "theme": "Light",
+      "preview_seconds": 5.791666666666667,
       "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
       "downloads": {
         "HDD": {
-          "url": "downloads/blue_nexus_aurora_ii-HDD.xex",
-          "sha256": "e2521a34ebd59225cccb5d41c8a8723a783482dcdf6e1ef3196a8931f4e7f16b",
-          "crc32": "CF4322BE",
-          "bytes": 380928,
+          "url": "downloads/vesper_flow_pearl-HDD.xex",
+          "sha256": "6fca61bccb30d66f3a019235fd3bc04971b2f58fcf151c04cbe33e345460cc4b",
+          "crc32": "1A5256F4",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         },
         "NAND": {
-          "url": "downloads/blue_nexus_aurora_ii-NAND.xex",
-          "sha256": "32c6a8bae0c56bf702ea390390233436733a38de0f92ca11051552ab2a8dd3fb",
-          "crc32": "FBC8D64B",
-          "bytes": 380928,
+          "url": "downloads/vesper_flow_pearl-NAND.xex",
+          "sha256": "212f191f0aad3e8e50270fea5ca62af7db91f81e229c7b7972ffb87d11a4ac3f",
+          "crc32": "372062F6",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         }
-      },
-      "console_test_reported_successful": false,
-      "motion": "media/blue_nexus_aurora_ii.mp4"
+      }
     },
     {
-      "id": "blue_nexus_aurora_smooth",
-      "name": "Blue Nexus / Aurora Smooth",
+      "id": "vesper_obsidian",
+      "name": "Vesper / Obsidian",
       "kind": "custom",
-      "group": "Blue Nexus",
-      "description": "The vivid blue X stays in place; its inner animation blends in gently / Deep Orbit.",
-      "image": "images/blue_nexus_aurora_smooth.webp",
-      "preview_seconds": 5.8,
+      "group": "Vesper",
+      "description": "Deep navy, blue and violet. An opening light iris, tilted lens arcs and splinter trails lead into the sphere reveal.",
+      "image": "images/vesper_obsidian.webp",
+      "motion": "media/vesper_obsidian.mp4",
+      "sound": "Prism Resonance",
+      "theme": "Dark",
+      "preview_seconds": 5.791666666666667,
       "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
       "downloads": {
         "HDD": {
-          "url": "downloads/blue_nexus_aurora_smooth-HDD.xex",
-          "sha256": "95e4b0ff5939b6ac811ddc445269b5802d6d8b784053caabf0b894bebe62a27a",
-          "crc32": "94E9A678",
-          "bytes": 380928,
+          "url": "downloads/vesper_obsidian-HDD.xex",
+          "sha256": "7308076bb95e52b4cb248bb5f3c8a236875d755fccad2faa8455593e3964109b",
+          "crc32": "8A16A324",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         },
         "NAND": {
-          "url": "downloads/blue_nexus_aurora_smooth-NAND.xex",
-          "sha256": "30044bcc7c292585e30e70e1a61db1ecd0b4c178f4ad6f2bc79531bd7d88a79a",
-          "crc32": "F40EBC78",
-          "bytes": 380928,
+          "url": "downloads/vesper_obsidian-NAND.xex",
+          "sha256": "7efd900767eaf8b70efffd70752d658252d28f957d2cd38901611a4ca550867d",
+          "crc32": "6758DB22",
+          "bytes": 370688,
           "install_name": "bootanim.xex"
         }
-      },
+      }
+    },
+    {
+      "id": "vesper_pearl",
+      "name": "Vesper / Pearl",
+      "kind": "custom",
+      "group": "Vesper",
+      "description": "Pearl, indigo and lilac. An opening light iris, tilted lens arcs and splinter trails lead into the sphere reveal.",
+      "image": "images/vesper_pearl.webp",
+      "motion": "media/vesper_pearl.mp4",
+      "sound": "Prism Resonance / Air",
+      "theme": "Light",
+      "preview_seconds": 5.791666666666667,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
       "console_test_reported_successful": false,
-      "motion": "media/blue_nexus_aurora_smooth.mp4"
+      "downloads": {
+        "HDD": {
+          "url": "downloads/vesper_pearl-HDD.xex",
+          "sha256": "2df657a2986f606c1907359a386aea84c1723e3a4b9c0d06b1e50341cd0009e4",
+          "crc32": "280EF3EB",
+          "bytes": 370688,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/vesper_pearl-NAND.xex",
+          "sha256": "1e6bc83e69d5101b5f31f41a2829980bd452489b90a7227fb6395f2ab5fe4f7e",
+          "crc32": "3013DDB4",
+          "bytes": 370688,
+          "install_name": "bootanim.xex"
+        }
+      }
     },
     {
       "id": "blue_nexus_lumina",
@@ -1251,7 +151,1273 @@
         }
       },
       "console_test_reported_successful": false,
-      "motion": "media/blue_nexus_lumina.mp4"
+      "motion": "media/blue_nexus_lumina.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "blue_nexus_aurora_smooth",
+      "name": "Blue Nexus / Aurora Smooth",
+      "kind": "custom",
+      "group": "Blue Nexus",
+      "description": "The vivid blue X stays in place; its inner animation blends in gently / Deep Orbit.",
+      "image": "images/blue_nexus_aurora_smooth.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue_nexus_aurora_smooth-HDD.xex",
+          "sha256": "95e4b0ff5939b6ac811ddc445269b5802d6d8b784053caabf0b894bebe62a27a",
+          "crc32": "94E9A678",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue_nexus_aurora_smooth-NAND.xex",
+          "sha256": "30044bcc7c292585e30e70e1a61db1ecd0b4c178f4ad6f2bc79531bd7d88a79a",
+          "crc32": "F40EBC78",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "motion": "media/blue_nexus_aurora_smooth.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "blue_nexus_aurora_ii",
+      "name": "Blue Nexus / Aurora II",
+      "kind": "custom",
+      "group": "Blue Nexus",
+      "description": "Closer camera and smooth sphere lighting / Deep Orbit.",
+      "image": "images/blue_nexus_aurora_ii.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue_nexus_aurora_ii-HDD.xex",
+          "sha256": "e2521a34ebd59225cccb5d41c8a8723a783482dcdf6e1ef3196a8931f4e7f16b",
+          "crc32": "CF4322BE",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue_nexus_aurora_ii-NAND.xex",
+          "sha256": "32c6a8bae0c56bf702ea390390233436733a38de0f92ca11051552ab2a8dd3fb",
+          "crc32": "FBC8D64B",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "motion": "media/blue_nexus_aurora_ii.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "blue_nexus_aurora",
+      "name": "Blue Nexus / Aurora",
+      "kind": "custom",
+      "group": "Blue Nexus",
+      "description": "Broad flowing light ribbons replacing the thin orbital trails / Deep Orbit.",
+      "image": "images/blue_nexus_aurora.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue_nexus_aurora-HDD.xex",
+          "sha256": "36c763805b7e113dd876db652f0fdd98a959a4a9b832b7d6499ce7635839701f",
+          "crc32": "37D420E0",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue_nexus_aurora-NAND.xex",
+          "sha256": "5725fc3997ccd83fd040b19f6e746688ba72e376c0c789e5c4fe689b4c197a1c",
+          "crc32": "51494C96",
+          "bytes": 380928,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "motion": "media/blue_nexus_aurora.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "blue_nexus_constellation",
+      "name": "Blue Nexus / Constellation",
+      "kind": "custom",
+      "group": "Blue Nexus",
+      "description": "Layered orbital trails, comets and a reveal shockwave / Deep Orbit.",
+      "image": "images/blue_nexus_constellation.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue_nexus_constellation-HDD.xex",
+          "sha256": "9323c00ce82da67b686dbc79cd03870f2e67bfed57791d60995401aa33e2fdb4",
+          "crc32": "AE75414E",
+          "bytes": 378880,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue_nexus_constellation-NAND.xex",
+          "sha256": "e8ad11a8a3bf2cebdf9ae53b6270ac896d45c2d233d819fad85a2af525df9cd1",
+          "crc32": "2C782141",
+          "bytes": 378880,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "motion": "media/blue_nexus_constellation.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "blue_nexus_deep_orbit",
+      "name": "Blue Nexus / Deep Orbit",
+      "kind": "custom",
+      "group": "Blue Nexus",
+      "description": "The initial shader animation with Deep Orbit, reported working on the Xbox.",
+      "image": "images/blue_nexus_deep_orbit.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue_nexus_deep_orbit-HDD.xex",
+          "sha256": "8c16cdb098dcf6842a1018a4f5e18967c462cc809c6b35fd21f7fcd34e6cfeff",
+          "crc32": "1F53E7EE",
+          "bytes": 378880,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue_nexus_deep_orbit-NAND.xex",
+          "sha256": "045965b58fec04164349e1ec267c9996ca9a297aef705a9f11fe3d3be29d08fc",
+          "crc32": "5204BE34",
+          "bytes": 378880,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": true,
+      "motion": "media/blue_nexus_deep_orbit.mp4",
+      "sound": "Deep Orbit"
+    },
+    {
+      "id": "original",
+      "name": "Xbox Original",
+      "kind": "original",
+      "group": "Basic",
+      "description": "The modern Xbox 360 animation in its stock colors. Reference for the recolored editions.",
+      "image": "images/original.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/original-HDD.xex",
+          "sha256": "c30e2e78478eb31d5102dd819d22b386b3d27e42559f6a9984917f2984724a3a",
+          "crc32": "4935F9A9",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/original-NAND.xex",
+          "sha256": "446ac59cc2952209ac7029f45cbd7ffec689bafe44db0fb5ed167f395942ccfd",
+          "crc32": "90DCBBE8",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "blue",
+      "name": "Blue / standard",
+      "kind": "original",
+      "group": "Basic",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/blue.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/blue-HDD.xex",
+          "sha256": "00ac4eece003311f7fd6f6cf1def2264f4e4c7713d304b04922089ebd2e2ac18",
+          "crc32": "09DBA909",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/blue-NAND.xex",
+          "sha256": "15ec3ed0242ce29b4ac7d563b3b8df5b68acffade807505b01c8cff003ff0c60",
+          "crc32": "3EAB8E3A",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan / standard",
+      "kind": "original",
+      "group": "Basic",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/cyan.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/cyan-HDD.xex",
+          "sha256": "008b838a95db219b85c197532e224145d8e3949c3db3b457734276da103c5655",
+          "crc32": "BD87AFC7",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/cyan-NAND.xex",
+          "sha256": "350aa3232f53d151d4ab1c7357b23a6678d498fcbb1d2b023d3b315fd559cbaa",
+          "crc32": "900AC9AD",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "purple",
+      "name": "Purple / standard",
+      "kind": "original",
+      "group": "Basic",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/purple.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/purple-HDD.xex",
+          "sha256": "881601fdc19bac9ea55464f01f1f4c1232c6ac88fac0f5bc3d1e3b5ab18c07c9",
+          "crc32": "488F7D7E",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/purple-NAND.xex",
+          "sha256": "3f2a2b86201904cc9cf101a6d48eab0348ac22285ec5ebcbe15930548be21a4a",
+          "crc32": "27EE55FD",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "ice",
+      "name": "Ice Blue",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/ice.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/ice-HDD.xex",
+          "sha256": "9bfda056303b4d7dcd284f1d4a8bb0c9dc709fceccac2f6fa4813768cbd3866d",
+          "crc32": "D792279E",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/ice-NAND.xex",
+          "sha256": "c804b109c7bd9ff637937a426f7b52e26b8c2e7c34b195d8e858b85f72b51bcd",
+          "crc32": "AA9DECEA",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/sapphire.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/sapphire-HDD.xex",
+          "sha256": "154530b02e027c178a20033606d8f8ea092d9930533e6f2e183358983db99166",
+          "crc32": "C87A0ABA",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/sapphire-NAND.xex",
+          "sha256": "50728af790fdcd4c33b58db1e13d02febf628c5871a89532d0c7af0c85c08825",
+          "crc32": "5F0575B7",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/ocean.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/ocean-HDD.xex",
+          "sha256": "f440746a7b4f375e020494e90dd58efc3c0adf505f1d2927e868ccbda91d4a35",
+          "crc32": "040806F7",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/ocean-NAND.xex",
+          "sha256": "45db3b6d9cfcceb472500b800b32a7e403f8cad7cfddf175ad7a624a8f36b56b",
+          "crc32": "40D09DAD",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/mint.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/mint-HDD.xex",
+          "sha256": "c03883ed47d6e766ec032cdef58f4bf4eeef08334e98d5908904b0954855ebd4",
+          "crc32": "F42CA157",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/mint-NAND.xex",
+          "sha256": "389b14d87dc7d6cb78105947d6acc87af3d71958d3f8ac30ea5f7fce72faa6d2",
+          "crc32": "59EB883E",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/lime.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/lime-HDD.xex",
+          "sha256": "657800cef535f3951f19ecb6d6d2a6b4d5e9593ee08e7d6aa007b53ba84ddf61",
+          "crc32": "E26873BC",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/lime-NAND.xex",
+          "sha256": "e58ac175572d280968975702ad1ee9a094f73e5865c267db0b13092c3e113248",
+          "crc32": "A5A1C33F",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "lavender",
+      "name": "Lavender",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/lavender.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/lavender-HDD.xex",
+          "sha256": "109490caa291167fedaf009fe6ab18a384d557ce725bb333943711e1f6aff286",
+          "crc32": "109A1AB7",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/lavender-NAND.xex",
+          "sha256": "041a12da21dd4057d16b1fb432964b4f4538f839dcfc8143c73d7ed7a6449e99",
+          "crc32": "6CA982A1",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/rose.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/rose-HDD.xex",
+          "sha256": "0686a466a00602fc6012cf14ae14bd875f9f52fc5292c6c02b9555ccdcddeb43",
+          "crc32": "B0BDA339",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/rose-NAND.xex",
+          "sha256": "99627e7c3266f50e8753b85f27d6b9a493f80c36b593501e60a14aa93de335d2",
+          "crc32": "6D596B14",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "coral",
+      "name": "Coral",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/coral.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/coral-HDD.xex",
+          "sha256": "4127b2bd42d6f7df5c78de890cccc678a30e52e51ab84640a2c8ac65f032d355",
+          "crc32": "51FA7D92",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/coral-NAND.xex",
+          "sha256": "518c442c3c35b88ffda040329cf984215d90408af21dafb91080c31e778be280",
+          "crc32": "C6AC909E",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "sunrise",
+      "name": "Sunrise",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/sunrise.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/sunrise-HDD.xex",
+          "sha256": "6c839567ac7c5ff7c770f02c6e54338bfafd87269faff5e9d18f885e052f446d",
+          "crc32": "D34EAD79",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/sunrise-NAND.xex",
+          "sha256": "26133a2583cff1e04e97f5f2b857b71d98b856c59e273891c5ff2938e6ec5211",
+          "crc32": "5543D2C2",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "kind": "original",
+      "group": "Light",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/gold.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/gold-HDD.xex",
+          "sha256": "fc160ae93b700a41af8822cddaedbefc89da7804dd0620c5e8a3a0238d8b02a3",
+          "crc32": "3A9ECD58",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/gold-NAND.xex",
+          "sha256": "a5f296da6477dd889c9b6b0db90b788b537adf05582861ad374295d803c89be1",
+          "crc32": "CAA67314",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "black_blue",
+      "name": "Blue on Black",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/black_blue.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/black_blue-HDD.xex",
+          "sha256": "fb6a049f73e0d0ea0b279f13a5edc2103d58052790e2134d33228f3be161c6e9",
+          "crc32": "3CC7A1B9",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/black_blue-NAND.xex",
+          "sha256": "93cb118df6987838f0e75b2f110b143749f9d2845a705037b2d6a3a2852c66e0",
+          "crc32": "DC323618",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight Blue",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/midnight.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/midnight-HDD.xex",
+          "sha256": "dd0beeabe401c1c53914743e8b73cd367aa2d56ab2d3529f611344e9f7579e69",
+          "crc32": "0AF8FAC2",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/midnight-NAND.xex",
+          "sha256": "7802048d5a4e65f0966be7a0af042cfefb7aa53e1786cec785575602ce7fe492",
+          "crc32": "95F2ADAA",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "arctic",
+      "name": "Arctic Night",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/arctic.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/arctic-HDD.xex",
+          "sha256": "9b7a85d0724222b4e7906a34ed7119db7c4ab1772c05f3fac74b6e474f23e79f",
+          "crc32": "B799D48F",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/arctic-NAND.xex",
+          "sha256": "f3d2f6c47011bc3958b5b3fb961dbb1aec5f94a181b9f0b1024a2f169a96c7d6",
+          "crc32": "97CC1548",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "black_cyan",
+      "name": "Cyan on Black",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/black_cyan.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/black_cyan-HDD.xex",
+          "sha256": "3626b684a3815a8246aee82211a5b55290c69d22889cbd8a47dacf5700855810",
+          "crc32": "6B95BC73",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/black_cyan-NAND.xex",
+          "sha256": "f10ae834a6230235e2f466f1b236068b80d2062df870cd1593e9d9384d9e74c4",
+          "crc32": "7527ED00",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Night",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/emerald.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/emerald-HDD.xex",
+          "sha256": "caa2ee280a62779c035c5540d3e26cfe58e021f8a0ca1a7644c178a86e6dab84",
+          "crc32": "6CA26161",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/emerald-NAND.xex",
+          "sha256": "651539393ecfb80d914f02bfabfa1d2001fe4290fd94a3b1bc1b060912ac2696",
+          "crc32": "8E0E9DAB",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "forest",
+      "name": "Forest Night",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/forest.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/forest-HDD.xex",
+          "sha256": "9a820e7eb2f160a90df1b0ee65ce673e6c2fdc3aa1bf7f9a1dba450ecbcb08d9",
+          "crc32": "F91CB0C5",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/forest-NAND.xex",
+          "sha256": "4f9a5dfee55b51ba92d895feadd863cbc84bb45bb3cfd5d7d02ac071de767499",
+          "crc32": "77040D5F",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "purple_night",
+      "name": "Purple Night",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/purple_night.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/purple_night-HDD.xex",
+          "sha256": "1edee45b356f1fd9e9a5366eaf41767cc4f602ff7cb1d5ebea7f13218ae25c71",
+          "crc32": "E839175A",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/purple_night-NAND.xex",
+          "sha256": "fe8219e914f7f5580c2a954cc31e13c66a2b161a1fb6b5083ac968ab6d3dd163",
+          "crc32": "56C2B8EE",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "neon_pink",
+      "name": "Neon Pink",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/neon_pink.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/neon_pink-HDD.xex",
+          "sha256": "113a38f0db8834654c57d7aef3410eeb11ec6569ec05b79cff075b9403a95ff0",
+          "crc32": "F7F29491",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/neon_pink-NAND.xex",
+          "sha256": "f243f555e1c5676d13024e489aeed4a58a494fe878eb78b61332401b8a991d4d",
+          "crc32": "4AD63B79",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "crimson",
+      "name": "Crimson Black",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/crimson.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/crimson-HDD.xex",
+          "sha256": "b2facd55abf37c6726c5aec9ec10204bd819bf9b7aee0855faa85ea790341c7d",
+          "crc32": "15B03F12",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/crimson-NAND.xex",
+          "sha256": "7ff11a897eb9d5008dd4de3cb200843550ccce6e49f46847b79353fb7b4c21ad",
+          "crc32": "F4162B44",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "ember",
+      "name": "Ember",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/ember.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/ember-HDD.xex",
+          "sha256": "415cd47719c6893bd72d3514462f64404f631bfbbcb584e26a38fdf5f4f23025",
+          "crc32": "87E9E10B",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/ember-NAND.xex",
+          "sha256": "f5550a57e3fdcf52590af6f801fab7bafac382f7fa62fd3fbbf38db264d2c215",
+          "crc32": "501AF67F",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze Night",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/bronze.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/bronze-HDD.xex",
+          "sha256": "225ec128f611a6e53665cd98997fce0d747161e3c6ea3be4408481b8d5b8dd6a",
+          "crc32": "E6BCDD53",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/bronze-NAND.xex",
+          "sha256": "18a22785ca65e5ce05dce2a652d2532b292b022758540d80caf43f6df342cae4",
+          "crc32": "E5DDA589",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "black_gold",
+      "name": "Gold on Black",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/black_gold.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/black_gold-HDD.xex",
+          "sha256": "28edbe22fb47840f078566eaffac7abd06e5c70c7e209de8ea655d856d7dd907",
+          "crc32": "3C29F267",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/black_gold-NAND.xex",
+          "sha256": "5f600f2406198774c98852cfbd313c04e72b0eb35b7570fca00e2211a93f69de",
+          "crc32": "613B8BEE",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/graphite.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/graphite-HDD.xex",
+          "sha256": "2db22c1c2376fb6b2015ab383a97d04092defc5054d701c0f0d09d6d92c25a37",
+          "crc32": "3FF1010C",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/graphite-NAND.xex",
+          "sha256": "77217053a65ced3512279a34c6d0e93ae6febb7e084c57bcc06adb2b2aa2600b",
+          "crc32": "26353F6A",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "kind": "original",
+      "group": "Dark",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/moonlight.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/moonlight-HDD.xex",
+          "sha256": "f12aa0d286442b659949f8ebdf4bf3ad9b0f89b829929d4f6ab61dc486fd35ef",
+          "crc32": "D2D4C2EF",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/moonlight-NAND.xex",
+          "sha256": "c2d507c9dd2fc9a70b121e73d21ddfe84c6df724eb64715832c41df61a4561da",
+          "crc32": "F2B4E34A",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "ice_mist",
+      "name": "Ice Mist",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/ice_mist.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/ice_mist-HDD.xex",
+          "sha256": "c4883736eccec50aa52d1820b3571cfc46e4717ade964c527839c195591f97fd",
+          "crc32": "43AD19AB",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/ice_mist-NAND.xex",
+          "sha256": "15a1eae6d688348747176b4c302f06be0a610aa4406b327cfb5661b3dbe8bcca",
+          "crc32": "42BEF1B5",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "lilac_mist",
+      "name": "Lilac Mist",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/lilac_mist.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/lilac_mist-HDD.xex",
+          "sha256": "cd1c4b4bdc1ee77a26b7d8b8078d4befe0b550b3930e2b1e5c15f30509e6daa9",
+          "crc32": "A5B081F5",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/lilac_mist-NAND.xex",
+          "sha256": "e4705995e6c61af130d188c652dbe5968aea358df93d677afb692e31358a0302",
+          "crc32": "25D125CA",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "mint_mist",
+      "name": "Mint Mist",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/mint_mist.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/mint_mist-HDD.xex",
+          "sha256": "e5b6c13380ea03d592faab6231e430513db4efcfcfef9569c44ce1b2f5bdd7cc",
+          "crc32": "B1CFC82D",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/mint_mist-NAND.xex",
+          "sha256": "c2718dda201c967daf99eae1000d89a263281f4d79668d26fd809e9626c126e7",
+          "crc32": "6B7D4A92",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/peach.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/peach-HDD.xex",
+          "sha256": "573a7a3649278fbc26ee3adef60370dd25ab6296e27fb34da4e3c3caa5d8e1b3",
+          "crc32": "7C017C64",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/peach-NAND.xex",
+          "sha256": "31e8c2bd1363441e582d10808b78da76ad7feaa153e416d8b450198ab46ce474",
+          "crc32": "CB8C388A",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "warm_gray",
+      "name": "Warm Silver",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/warm_gray.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/warm_gray-HDD.xex",
+          "sha256": "8932c076c2cae1c343c906c9c41a0d28b20355d165ed335b9290d75ef249900a",
+          "crc32": "F657C594",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/warm_gray-NAND.xex",
+          "sha256": "7bc9f1c3c695c9bab17d8182bc5a399627e551787716d8a94c329bae5100a7b4",
+          "crc32": "58366959",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "rose_quartz",
+      "name": "Rose Quartz",
+      "kind": "original",
+      "group": "Pastel",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/rose_quartz.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/rose_quartz-HDD.xex",
+          "sha256": "d5c64ad2f701d6a16bb8782d1ddf5f8f4f61a3b17156945b89bbe479f9ff35a6",
+          "crc32": "516129C2",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/rose_quartz-NAND.xex",
+          "sha256": "c3234a56fc128e1d59dd03ccc756018b131c832d4aa375149cb67f6dc1c0cf4d",
+          "crc32": "985F0682",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset / Orange & Pink",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/sunset.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/sunset-HDD.xex",
+          "sha256": "bb6945ada180fff93796939a6a6255ef92a963f83638ead6c9db57ece4c7b70c",
+          "crc32": "114BB8DB",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/sunset-NAND.xex",
+          "sha256": "d421a6912aa97218a023582cc4886ee8ecb7af6f90d984a88452f4acbaaf97b3",
+          "crc32": "5F327DB2",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora / Teal & Purple",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/aurora.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/aurora-HDD.xex",
+          "sha256": "e1aef0ffe1978ca229b5b42d42cdea232df91f9e2040c4c7b23838c7706935fe",
+          "crc32": "12734B0B",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/aurora-NAND.xex",
+          "sha256": "039a396f1b8b7d0579f4613bd48003f01c01a73910e600319306da46c7784c60",
+          "crc32": "D171AADE",
+          "bytes": 393216,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "cyberpunk",
+      "name": "Cyberpunk / Cyan & Pink",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/cyberpunk.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/cyberpunk-HDD.xex",
+          "sha256": "3f710a1be60fbd44290ca22e30406166a14e9b6d115029a6a41ac4e4429068c1",
+          "crc32": "6FA4E001",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/cyberpunk-NAND.xex",
+          "sha256": "b9173d440ffadbab8c0330e9fa39e6bc54c3e12aa923bd4580f3d6eb8aa00a06",
+          "crc32": "622A988A",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "royal",
+      "name": "Royal / Purple & Gold",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/royal.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/royal-HDD.xex",
+          "sha256": "0b201ec0446368f3d6613ded91dc9419df64e903be4548de228256dc8cb3b810",
+          "crc32": "3CCBFF34",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/royal-NAND.xex",
+          "sha256": "7d0b6dbcf216de8b3dcadb7950dc6cd5e63d09ba84d2bfce7afb3fe01a043157",
+          "crc32": "D887C39C",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "volcano",
+      "name": "Volcano / Red & Orange",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/volcano.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/volcano-HDD.xex",
+          "sha256": "45364d95a98ce0075625a541db0e4d4bdcafc9988664f3d02b429fbf48c85c02",
+          "crc32": "660023A9",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/volcano-NAND.xex",
+          "sha256": "c9aebdd9a15248633fece48ea01aec14d300a0d8e77670fb10c0b36d11cd360f",
+          "crc32": "A9E1B7D1",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
+    },
+    {
+      "id": "white_gold",
+      "name": "Champagne / White & Gold",
+      "kind": "original",
+      "group": "Two-tone",
+      "description": "The modern original animation, with coordinated colors and the original boot sound.",
+      "image": "images/white_gold.webp",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "downloads": {
+        "HDD": {
+          "url": "downloads/white_gold-HDD.xex",
+          "sha256": "b1c53e921fd87bdf85b8ebea1a4eec4f0722182920f4060790ba47e3b56c0a12",
+          "crc32": "A7887FBE",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/white_gold-NAND.xex",
+          "sha256": "64c5119db306357334738fb383623d9081e96225b45a4847c95c4f7cf36e528f",
+          "crc32": "17BD1A5D",
+          "bytes": 391168,
+          "install_name": "bootanim.xex"
+        }
+      },
+      "console_test_reported_successful": false,
+      "sound": "Original Xbox 360 sound"
     }
   ]
 }
