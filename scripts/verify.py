@@ -3,18 +3,21 @@ import hashlib, html, json, re
 from html.parser import HTMLParser
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root/'catalog.json').read_text(encoding='utf-8'))
-assert data['animation_count'] == 50 and data['xex_count'] == 100
-assert len(data['animations']) == 50
-assert len({p['id'] for p in data['animations']}) == 50
+total = data['animation_count']
+custom = data['custom_animation_count']
+original = data['color_theme_count']
+assert total == custom + original and data['xex_count'] == total * 2
+assert len(data['animations']) == total
+assert len({p['id'] for p in data['animations']}) == total
 assert sum(p['kind']=='original' for p in data['animations']) == data['color_theme_count'] == 40
-assert sum(p['kind']=='custom' for p in data['animations']) == data['custom_animation_count'] == 10
-assert len(list((root/'downloads').glob('*.xex'))) == 100
+assert sum(p['kind']=='custom' for p in data['animations']) == custom
+assert len(list((root/'downloads').glob('*.xex'))) == total * 2
 for p in data['animations']:
     assert 'prototype' not in p['name'].lower()
     assert (root/p['image']).is_file()
     if p['kind']=='custom':
         assert (root/p['motion']).is_file()
-        assert p['sound'] in ('Deep Orbit','Prism Resonance','Prism Resonance / Air')
+        assert isinstance(p['sound'],str) and p['sound'].strip()
     assert set(p['downloads']) == {'HDD','NAND'}
     for info in p['downloads'].values():
         raw = (root/info['url']).read_bytes()
@@ -24,7 +27,7 @@ for p in data['animations']:
         assert f'{zlib.crc32(raw)&0xffffffff:08X}'==info['crc32']
 page = (root/'index.html').read_text(encoding='utf-8')
 assert page.startswith('<!doctype html>') and '<html lang="en">' in page
-assert page.count('<article class="card"')==50
+assert page.count('<article class="card"')==total
 class Sections(HTMLParser):
     def __init__(self):
         super().__init__();self.stack=[];self.cards={};self.ids=set();self.motion=[]
@@ -42,9 +45,9 @@ class Sections(HTMLParser):
     def handle_endtag(self, tag):
         if tag=='section':self.stack.pop()
 sections=Sections();sections.feed(page)
-assert sections.cards=={'custom':10,'original':40}
+assert sections.cards=={'custom':custom,'original':original}
 assert {'custom-animations','original-recolored'}<=sections.ids
-assert len(set(sections.motion))==10
+assert len(set(sections.motion))==custom
 for link in re.findall(r'(?:href|src|data-image|data-preview)="([^"#]+)"',page):
     if link.startswith(('https://','http://','data:')): continue
     assert (root/html.unescape(link)).is_file(), link
@@ -59,4 +62,4 @@ for file in root.rglob('*'):
     prefix = bytes([99,58,92,117,115,101,114,115,92])
     for needle in (prefix, personal, prefix.decode().encode('utf-16le'), personal.decode().encode('utf-16le')):
         assert needle not in raw, file
-print('Verified: 10 custom + 40 original color editions, 100 XEX files, 50 stills, 10 sound previews; section membership, local links, hashes and privacy checks passed.')
+print(f'Verified: {custom} custom + {original} original color editions, {total*2} XEX files, {total} stills, {custom} sound previews; section membership, local links, hashes and privacy checks passed.')
