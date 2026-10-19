@@ -1,10 +1,280 @@
 {
   "version": 2,
-  "animation_count": 50,
+  "animation_count": 59,
   "color_theme_count": 40,
-  "custom_animation_count": 10,
-  "xex_count": 100,
+  "custom_animation_count": 19,
+  "xex_count": 118,
   "animations": [
+    {
+      "id": "midnight_signature_nova",
+      "name": "Midnight Signature Nova",
+      "kind": "custom",
+      "group": "Midnight",
+      "description": "Four seamless curved surfaces assemble into an X on a dark sphere. Blue and violet energy builds into a blue-white ignition, two pressure waves and a radial particle shower.",
+      "image": "images/midnight_signature_nova.webp",
+      "motion": "media/midnight_signature_nova.mp4",
+      "sound": "Abyssal Forge",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/midnight_signature_nova-HDD.xex",
+          "sha256": "fc43b292f34221175363fcf468757a76740491bb6124d6ea3cc34df10bd8328d",
+          "crc32": "8621D6A1",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/midnight_signature_nova-NAND.xex",
+          "sha256": "b04b64aedc7f168c310c0c29d93ddfd471fdecda7ad0d016461f007efa734862",
+          "crc32": "1FF70183",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "midnight_signature",
+      "name": "Midnight Signature",
+      "kind": "custom",
+      "group": "Midnight",
+      "description": "A restrained midnight-blue reveal: four smoothly curved surfaces form a seamless X, with soft reflections, sparse particles and the original wordmark in blue and ice white.",
+      "image": "images/midnight_signature.webp",
+      "motion": "media/midnight_signature.mp4",
+      "sound": "Abyssal Forge",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/midnight_signature-HDD.xex",
+          "sha256": "5abe3fa5aa9d6586b22e945ba41a09e6d38024869cdd9111bfccf6cc785b8460",
+          "crc32": "87E1EC0C",
+          "bytes": 331776,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/midnight_signature-NAND.xex",
+          "sha256": "6b65542b48da39419b8516dfef17eb290773423d5fa50fd058b42ec3453df5b1",
+          "crc32": "05D3CC26",
+          "bytes": 331776,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "midnight_assembly",
+      "name": "Midnight Assembly",
+      "kind": "custom",
+      "group": "Midnight",
+      "description": "Sixteen beveled panels arrive from four directions and lock into an X. A dark sphere forms behind it, with violet and cyan particles and original blue-white lettering.",
+      "image": "images/midnight_assembly.webp",
+      "motion": "media/midnight_assembly.mp4",
+      "sound": "Abyssal Forge",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/midnight_assembly-HDD.xex",
+          "sha256": "076cf0bf2a71bed421855310c05e713daacd5e1af7e54dcb22ad5d2718fba56b",
+          "crc32": "44B7F4C5",
+          "bytes": 331776,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/midnight_assembly-NAND.xex",
+          "sha256": "753ebebfa970d0372bbadcc8c38aea5f22e7bd53c59507f3538303e7ddb17e90",
+          "crc32": "0FBC4239",
+          "bytes": 331776,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "azure_titan_eclipse",
+      "name": "Azure Titan / Eclipse",
+      "kind": "custom",
+      "group": "Azure Titan",
+      "description": "Cobalt and electric blue against black. An X-shaped particle constellation and twisting shell converge into a sphere, followed by a radial burst, expanding shockwaves and a blue corona.",
+      "image": "images/azure_titan_eclipse.webp",
+      "motion": "media/azure_titan_eclipse.mp4",
+      "sound": "Titan Ascension",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/azure_titan_eclipse-HDD.xex",
+          "sha256": "d5659aec6dbd3344f407f3eff46c838cd3e444169b6d21abc1131d356f6920c4",
+          "crc32": "31EEB984",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/azure_titan_eclipse-NAND.xex",
+          "sha256": "f26dc76bc48a13e660e4e743e7e833335853b396f4064b6a47b412830cdc81b0",
+          "crc32": "E5331921",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "azure_titan_radiance",
+      "name": "Azure Titan / Radiance",
+      "kind": "custom",
+      "group": "Azure Titan",
+      "description": "Pearl white, ice blue and sapphire. A particle constellation and twisting shell converge into a sphere, followed by orbital light bands, expanding shockwaves and XBOX 360 lettering.",
+      "image": "images/azure_titan_radiance.webp",
+      "motion": "media/azure_titan_radiance.mp4",
+      "sound": "Titan Ascension",
+      "theme": "Light",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/azure_titan_radiance-HDD.xex",
+          "sha256": "bcd4784a666c7170da4e4bdab681d01b53e9edc3e717faea52c8fe8974ae8b2f",
+          "crc32": "B47E62E9",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/azure_titan_radiance-NAND.xex",
+          "sha256": "4b73141057aed8e7aad36ca2cb0b9524ea37386e2b4c3fdf893101e51562c532",
+          "crc32": "466CCCE0",
+          "bytes": 329728,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "azure_duality_eclipse",
+      "name": "Azure Duality / Eclipse",
+      "kind": "custom",
+      "group": "Azure Duality",
+      "description": "A twisting energy shell rises from below the left and closes into a deep-blue sphere. Orbiting light bands, particles and an impact pulse frame the ice-blue wordmark.",
+      "image": "images/azure_duality_eclipse.webp",
+      "motion": "media/azure_duality_eclipse.mp4",
+      "sound": "Celestial Rise",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/azure_duality_eclipse-HDD.xex",
+          "sha256": "6ee17e9c70dffa2cb8edcb15a30efc9f524f8d5350f8bf8aeac870b2663c1563",
+          "crc32": "20F7022C",
+          "bytes": 317440,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/azure_duality_eclipse-NAND.xex",
+          "sha256": "915e53f9e2904486be662c97b20f8e6c9805ed61819218ed3cc1d69a6b36f68b",
+          "crc32": "8B04D506",
+          "bytes": 317440,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "azure_duality_radiance",
+      "name": "Azure Duality / Radiance",
+      "kind": "custom",
+      "group": "Azure Duality",
+      "description": "A pearl-white and ice-blue sphere with a sapphire X in a cool white setting. A twisting energy shell, orbital light bands and particles lead into the dark-blue wordmark.",
+      "image": "images/azure_duality_radiance.webp",
+      "motion": "media/azure_duality_radiance.mp4",
+      "sound": "Celestial Rise",
+      "theme": "Light",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/azure_duality_radiance-HDD.xex",
+          "sha256": "59b560faa160e27f8388d8e5f60324cce43dd73842cad59a2e86196683bb2c96",
+          "crc32": "F1408962",
+          "bytes": 317440,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/azure_duality_radiance-NAND.xex",
+          "sha256": "c5e956b27f909a67296ef0220cc02d8f733d675f1eed609b44eafe94408041d7",
+          "crc32": "78862DE7",
+          "bytes": 317440,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "obsidian_vortex",
+      "name": "Obsidian Vortex",
+      "kind": "custom",
+      "group": "Obsidian Vortex",
+      "description": "Green plasma and a particle vortex pull obsidian fragments into a dark sphere. An illuminated X, laser-ring segments and an independently modeled wordmark complete the ignition.",
+      "image": "images/obsidian_vortex.webp",
+      "motion": "media/obsidian_vortex.mp4",
+      "sound": "Emerald Ignition",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/obsidian_vortex-HDD.xex",
+          "sha256": "27525f0c1cc2098437ae971209a61916fa2e0a5f1dcf95e4ffb38f5f814bc1e3",
+          "crc32": "ABA4494E",
+          "bytes": 313344,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/obsidian_vortex-NAND.xex",
+          "sha256": "88a767ae13fd191590236bd56c43874bb89e8dd4b3fa8defeceb2d213c8e68f7",
+          "crc32": "761456B1",
+          "bytes": 313344,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
+    {
+      "id": "aether_forge_ii",
+      "name": "Aether Forge II",
+      "kind": "custom",
+      "group": "Aether Forge",
+      "description": "An independently modeled recessed 3D reactor with segmented mechanical crowns, split fins, an extruded X and XBOX 360 lettering. Intense blue, violet and cyan accompany a cinematic camera move.",
+      "image": "images/aether_forge_ii.webp",
+      "motion": "media/aether_forge_ii.mp4",
+      "sound": "Singularity",
+      "theme": "Dark",
+      "preview_seconds": 5.8,
+      "preview_source": "Actual exported program image in the native renderer through Xenia",
+      "console_test_reported_successful": false,
+      "downloads": {
+        "HDD": {
+          "url": "downloads/aether_forge_ii-HDD.xex",
+          "sha256": "468ad8ac7b7536c4946c8ff6b54d33c02be5835692a16df914f426ae40862710",
+          "crc32": "D719561C",
+          "bytes": 319488,
+          "install_name": "bootanim.xex"
+        },
+        "NAND": {
+          "url": "downloads/aether_forge_ii-NAND.xex",
+          "sha256": "5955ad6c0ba73c9d71f47456e144e0ce5de37ca9e448bf8c8ec75fdbbb860878",
+          "crc32": "AEF00DDF",
+          "bytes": 319488,
+          "install_name": "bootanim.xex"
+        }
+      }
+    },
     {
       "id": "vesper_flow_obsidian",
       "name": "Vesper Flow / Obsidian",

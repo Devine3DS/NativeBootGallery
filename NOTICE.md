@@ -4,7 +4,7 @@ The gallery's own HTML, CSS, JavaScript, validation script and documentation are
 
 The publisher explicitly confirmed separate permission to publish the finished XEX files. This statement records the publisher's supplied authorization; the MIT license is not a grant of redistribution rights for Microsoft software. Recipients remain responsible for applicable separate terms.
 
-The original boot renderer, logo, lettering, assets and Xbox 360 marks belong to Microsoft. Still and motion previews show modified versions of that boot sequence, recorded with Xenia. Native Boot Studio color editions, Vesper / Vesper Flow geometry and shaders, Blue Nexus modifications, and the original Deep Orbit / Prism Resonance soundtracks are the project's contributions.
+The original boot renderer, logo, lettering, assets and Xbox 360 marks belong to Microsoft. Still and motion previews show the exported programs in the native renderer through Xenia. Some custom designs retain the original emblem or wordmark; others use independently generated sphere, X, reactor or wordmark geometry. Native Boot Studio color editions, authored custom motion and shaders, generated geometry, and the original synthesized Deep Orbit, Prism Resonance, Singularity, Emerald Ignition, Celestial Rise, Titan Ascension and Abyssal Forge soundtracks are the project's contributions.
 
 **Mena** created `remap_bootanim_17559.bin`, as expressly credited by the [Xbox360BootAnimationCreator release](https://github.com/TheOnlyLordVirus/Xbox360BootAnimationCreator/releases/tag/Release). **TheOnlyLordVirus** publishes that project and the documented HDD-remap installation method. The patch is linked, not bundled or relicensed here.
 
