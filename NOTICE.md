@@ -11,3 +11,5 @@ The original boot renderer, logo, lettering, assets and Xbox 360 marks belong to
 **Xenia contributors** provide the independent emulator used for native previews. **xorloser** authored XexTool used in the export workflow. Neither tool nor an Xbox SDK is bundled. FFmpeg was used during preparation to encode web preview recordings; no FFmpeg binary is included.
 
 This gallery does not claim credit for the original Xbox boot animation or the HDD remap and does not imply affiliation or endorsement by Microsoft, Mena, TheOnlyLordVirus, xorloser or the Xenia project.
+
+Sapphire Contour uses fitted contours and native shaders based on the supplied Xbox startup reference video. Its soundtrack is adapted from that supplied video; it is not an original composition by this project. Rights remain with Microsoft and the respective rights holders. The 40 stills are cropped native detail views, not full-frame video recordings.

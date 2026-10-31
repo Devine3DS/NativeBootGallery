@@ -60,8 +60,8 @@ for (const button of document.querySelectorAll("[data-image]")) button.addEventL
     note.textContent = `Native-renderer recording with ${button.dataset.sound} sound. Press Play to watch and listen. Xbox hardware may render some details differently.`;
   } else {
     still.src = button.dataset.image;
-    still.alt = `${button.dataset.title}: fully revealed emblem and XBOX 360 lettering`;
-    note.textContent = "Captured from the actual exported animation at 5.8 seconds, with the emblem and lettering fully visible.";
+    still.alt = `${button.dataset.title}: completed native emblem`;
+    note.textContent = "Captured from the actual exported animation at 5.8 seconds. Sapphire Contour images are cropped detail views; the XEX renders the complete 16:9 animation.";
   }
   document.body.classList.add("modal-open");
   dialog.showModal();

@@ -2,11 +2,17 @@
 
 **[Open the live gallery](https://devine3ds.github.io/NativeBootGallery/)** / [Native Boot Studio](https://github.com/Devine3DS/NativeBootStudio)
 
-An English gallery with two clearly separated collections: **19 custom animations** and **40 editions of the original animation**, with coordinated color palettes and a stock-color reference. Includes **59 complete-emblem stills, 19 native motion previews with sound and 118 HDD/NAND XEX downloads**.
+An English gallery with **59 custom editions** and **40 original color editions**: **99 native stills, 19 motion previews with sound and 198 HDD/NAND XEX downloads**.
 
 Vesper Flow and Vesper each include **Obsidian** (dark navy, blue and violet) and **Pearl** (light pearl, indigo and lilac). Vesper Flow adds a continuous iris-to-curved-X transition, gathering lens arcs and separate eased sphere/X reveals. Their embedded soundtracks are **Prism Resonance** and **Prism Resonance / Air**.
 
 The two early Blue Nexus prototypes have been removed. All included XEX files are copied byte-for-byte from the verified exports. Each file's CRC-32 and SHA-256 appear in the gallery, `catalog.json`, and `SHA256SUMS.txt`.
+
+## Sapphire Contour – all 40 Studio palettes
+
+The latest reference-fitted X opening is available in all 40 Studio presets. Geometry, 6.5-second animation timing and embedded reference audio remain identical; colors and backgrounds follow each preset. Two-tone editions use the accent for floor lighting and environmental effects. Each has a completed native detail still at 5.8 seconds and verified HDD/NAND exports. These are custom-animation color editions, separate from the 40 recolors of the original sequence.
+
+Sapphire Contour thumbnails are cropped native detail views without desktop overlays. No full-motion preview is supplied for this series; the downloaded XEX renders the complete 16:9 animation with audio. The soundtrack is adapted from the user-supplied Xbox startup reference video and is not an original composition by this project. Pixel-identical reconstruction is not claimed. Physical-console playback remains unverified.
 
 ## New custom releases
 
@@ -45,7 +51,7 @@ See [Native Boot Studio's detailed installation guide](https://github.com/Devine
 
 ## Preview and testing scope
 
-Still frames were captured at **approximately 5.8 seconds**, after the sphere and lettering fully appeared, from the actual exported program images in the native Xbox renderer through Xenia. Custom motion previews use native-renderer recordings and the selected animation's embedded soundtrack, encoded as web-compatible H.264/AAC MP4. Video compression does not alter the XEX downloads. Console hardware can render details differently.
+Still frames were captured at **approximately 5.8 seconds**, after the emblem fully appeared, from the actual exported program images in the native Xbox renderer through Xenia. Custom motion previews use native-renderer recordings and the selected animation's embedded soundtrack, encoded as web-compatible H.264/AAC MP4. Video compression does not alter the XEX downloads. Console hardware can render details differently.
 
 Blue Nexus / Deep Orbit has a successful Xbox test reported by a user. The other custom designs have native-renderer verification but still need console testing. No NAND flashing is performed or verified by this gallery.
 
@@ -65,7 +71,7 @@ Official guides: [Create a Pages site](https://docs.github.com/en/pages/getting-
 
 - **Mena**: the `remap_bootanim_17559.bin` HDD-remap patch, as credited in the upstream release.
 - **TheOnlyLordVirus**: Xbox360BootAnimationCreator and the linked remap distribution/instructions.
-- **Devine3DS / Native Boot Studio contributors**: editor, color editions, custom designs, generated geometry, motion, shaders and this gallery. The custom soundtracks are original syntheses created for these animations.
+- **Devine3DS / Native Boot Studio contributors**: editor, color editions, custom designs, generated geometry, motion, shaders and this gallery. The earlier custom soundtracks are original syntheses. Sapphire Contour uses audio adapted from the supplied Xbox startup reference video.
 - **Xenia contributors**: native-renderer previews. **xorloser**: XexTool, used in the export workflow.
 - **Microsoft**: Xbox 360 branding and original boot software/assets.
 
