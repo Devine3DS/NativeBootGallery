@@ -16,7 +16,8 @@ for p in data['animations']:
     assert 'prototype' not in p['name'].lower()
     assert (root/p['image']).is_file()
     if p['kind']=='custom':
-        assert (root/p['motion']).is_file()
+        if p.get('motion'): assert (root/p['motion']).is_file()
+        else: assert p.get('still_preview_only') is True
         assert isinstance(p['sound'],str) and p['sound'].strip()
     assert set(p['downloads']) == {'HDD','NAND'}
     for info in p['downloads'].values():
@@ -47,7 +48,7 @@ class Sections(HTMLParser):
 sections=Sections();sections.feed(page)
 assert sections.cards=={'custom':custom,'original':original}
 assert {'custom-animations','original-recolored'}<=sections.ids
-assert len(set(sections.motion))==custom
+assert len(set(sections.motion))==sum(bool(p.get('motion')) for p in data['animations'])
 for link in re.findall(r'(?:href|src|data-image|data-preview)="([^"#]+)"',page):
     if link.startswith(('https://','http://','data:')): continue
     assert (root/html.unescape(link)).is_file(), link
@@ -62,4 +63,4 @@ for file in root.rglob('*'):
     prefix = bytes([99,58,92,117,115,101,114,115,92])
     for needle in (prefix, personal, prefix.decode().encode('utf-16le'), personal.decode().encode('utf-16le')):
         assert needle not in raw, file
-print(f'Verified: {custom} custom + {original} original color editions, {total*2} XEX files, {total} stills, {custom} sound previews; section membership, local links, hashes and privacy checks passed.')
+print(f'Verified: {custom} custom + {original} original color editions, {total*2} XEX files, {total} stills, {len(set(sections.motion))} sound previews; section membership, local links, hashes and privacy checks passed.')
